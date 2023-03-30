@@ -1,0 +1,23 @@
+:root {
+    --main-color: #C1576E;
+    --main-btn-color: #C1576E;
+    --main-btn-border-color: #BA435C;
+    --main-btn-hover-color: rgb(129, 35, 93);
+    --text-color:rgb(126, 126, 126);
+}
+
+body {
+    background: #ededed;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.btn-primary {
+    background: var(--main-btn-color);
+    border: 1px solid var(--main-btn-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: var(--main-btn-hover-color);
+    border: 1px solid var(--main-btn-hover-color);
+}
